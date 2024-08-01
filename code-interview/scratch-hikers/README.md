@@ -7,19 +7,16 @@ spend on the bridge to better handle traffic flow.
 Write a function that takes in information of all hikers from that day which includes their name, and their time spent on the bridge - that function should return the most commonly spent amount of time on the bridge in minutes.
 
 Example Data:
-Name                Time Spent
 
-Evan P                  10
 
-Leslie K                12
-
-David W                 9
-
-Jeff M                  8  
-
-Crouton L               10
-
-Tin Z                   11
+| Name   | Time Spent |
+| ---    | ---   |
+| Evan P | 10 |
+| Leslie K | 12 |
+| David W | 9 |
+| Jeff M | 8 |
+| Crouton L |10 |
+| Tin Z | 11 |
 
 
 Return: 10
@@ -33,39 +30,35 @@ Removal Data, and return the difference between the two. This function will remo
 
 
 Example Data:
-Name                Time Spent
 
 
-Evan P                  10
+| Name   | Time Spent |
+| ---    | ---   |
+| Evan P | 10 |
+| Leslie K | 12 |
+| David W | 9 |
+| Jeff M | 8 |
+| Crouton L |10 |
+| Tin Z | 11 |
 
-Leslie K                12
 
-David W                 9
-
-Jeff M                  8  
-
-Crouton L               10
-
-Tin Z                   11
 
 Removal Data:
 
-Name                Time Spent
+
+| Name   | Time Spent |
+| ---    | ---   |
+| Evan P | 10 |
+| Jeff M | 8 |
+| Tin Z | 11 |
 
 
-Evan P                  10
-
-Jeff M                  8  
-
-Tin Z                   11
 
 Returned Data:
 
-Name                Time Spent
 
-
-Leslie K                12
-
-David W                 9
-
-Crouton L               10
+| Name   | Time Spent |
+| ---    | ---   |
+| Leslie K | 12 |
+| David W | 9 |
+| Crouton L |10 |
