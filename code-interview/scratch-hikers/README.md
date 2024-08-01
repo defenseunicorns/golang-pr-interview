@@ -10,11 +10,17 @@ Example Data:
 Name                Time Spent
 
 Evan P                  10
+
 Leslie K                12
+
 David W                 9
+
 Jeff M                  8  
+
 Crouton L               10
+
 Tin Z                   11
+
 
 Return: 10
 
@@ -29,25 +35,37 @@ Removal Data, and return the difference between the two. This function will remo
 Example Data:
 Name                Time Spent
 
+
 Evan P                  10
+
 Leslie K                12
+
 David W                 9
+
 Jeff M                  8  
+
 Crouton L               10
+
 Tin Z                   11
 
 Removal Data:
 
 Name                Time Spent
 
+
 Evan P                  10
+
 Jeff M                  8  
+
 Tin Z                   11
 
 Returned Data:
 
 Name                Time Spent
 
+
 Leslie K                12
+
 David W                 9
+
 Crouton L               10
